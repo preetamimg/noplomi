@@ -1,0 +1,18 @@
+@import'./var';
+@import'./fonts';
+@import './cta';
+@import './header';
+@import './footer';
+@import './hero';
+@import './logo';
+@import './mixins';
+@import './productcard';
+@import './brand';
+@import './unique';
+@import './featured';
+
+
+body {
+  font-family: 'Montserrat' !important;
+  background-color: $light;
+}

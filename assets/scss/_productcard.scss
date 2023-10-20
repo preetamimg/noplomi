@@ -1,0 +1,126 @@
+.heading-main {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+@media(max-width:767px) {
+  .heading-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.product-card {
+  .card-inner {
+    .image {
+      width: 100%;
+
+      .photo {
+        aspect-ratio: 1/.9;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .card-details {
+      background-color: #fff;
+      padding: .8rem;
+
+      .card-title {
+        color: $black;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0px 0px 0px 0px;
+        text-align: left;
+        padding-block: 3px;
+      }
+
+      .info {
+        display: flex;
+        padding-block: 4px;
+        align-items: center;
+
+
+        .image-1 {
+          height: 45px;
+          width: 45px;
+          border-radius: 50%;
+          display: flex;
+          position: relative;
+
+          img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+
+          .checkbox {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            background-color: $blue;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            font-size: 7px;
+          }
+        }
+
+        .name {
+          color: $black;
+          font-size: 15px;
+          font-weight: 600;
+          line-height: 1.4;
+          margin: 0px 0px 0px 10px;
+        }
+      }
+
+      .line-1 {
+        font-size: 18px;
+        font-weight: 600;
+        height: auto;
+        line-height: 1.4;
+        text-align: left;
+        width: auto;
+        max-width: 100%;
+        justify-content: flex-start;
+        padding-top: 1.5rem;
+      }
+
+      .line-2 {
+        padding-block: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          color: $green;
+          font-size: 15px;
+          font-weight: 500;
+          height: auto;
+          line-height: 1.4;
+        }
+
+        .right {
+          height: 18px;
+          width: 18px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 10px;
+          font-weight: 700;
+          background-color: $green;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.details-card {
+  background-color: #fff;
+}
+.details-card .user-details .user-info .user-image {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  overflow: hidden;
+}
+.details-card .user-details .user-info .user-image img {
+  width: 100%;
+}/*# sourceMappingURL=featured.min.css.map */
